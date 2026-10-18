@@ -40,6 +40,7 @@ jobs:
           bazelisk version
 
       - name: Prepare daily dictionary
+        if: false
         shell: pwsh
         env:
           PYTHONUTF8: "1"
