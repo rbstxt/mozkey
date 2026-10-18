@@ -116,6 +116,7 @@ jobs:
             --config=release_build \
             --macos_cpus=x86_64,arm64 \
             --define=macos_zenz_runtime=1 \
+            --define=MOZKEY_INSTALLABLE=1 \
             //mac:package \
             --verbose_failures
 
